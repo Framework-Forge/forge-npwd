@@ -1,0 +1,29 @@
+{
+  "resources": {
+    "npwd": "forge-npwd",
+    "forge-phone": "forge-npwd",
+    "forge_npwd": "forge-npwd",
+    "qbx_npwd": "forge-npwd",
+    "forge-npwd-bridge": "forge-npwd",
+    "forge-phone-shop": "forge-npwd-shop",
+    "npwd-forge-management": "forge-npwd-management",
+    "npwd_forge_management": "forge-npwd-management",
+    "npwd-forge-weather": "forge-npwd-weather",
+    "npwd_forge_weather": "forge-npwd-weather",
+    "npwd-forge-banking": "forge-npwd-banking",
+    "npwd_bankingapp": "forge-npwd-banking",
+    "npwd-forge-garage": "forge-npwd-garage",
+    "npwd_forge_garage": "forge-npwd-garage",
+    "npwd-forge-housing": "forge-npwd-housing",
+    "npwd_forge_housing": "forge-npwd-housing",
+    "npwd_forge_mail": "forge-npwd-mail",
+    "npwd_qbx_mail": "forge-npwd-mail"
+  },
+  "exports": {
+    "sendNPWDMessage": "sendForgeNPWDMessage",
+    "hasForgePhoneItem": "hasForgeNPWDItem",
+    "addForgePhoneItem": "addForgeNPWDItem",
+    "removeForgePhoneItem": "removeForgeNPWDItem",
+    "setForgePhoneMetadata": "setForgeNPWDMetadata"
+  }
+}

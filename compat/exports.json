@@ -1,0 +1,113 @@
+{
+  "forge-npwd": {
+    "client": [
+      "HasPhone",
+      "compatGetNuiCallbacks",
+      "compatInvokeNui",
+      "createNotification",
+      "createSystemNotification",
+      "endCall",
+      "fillNewContact",
+      "fillNewNote",
+      "getPhoneNumber",
+      "hasActivePhone",
+      "hasForgeNPWDItem",
+      "isInCall",
+      "isPhoneDisabled",
+      "isPhoneVisible",
+      "openApp",
+      "removeSystemNotification",
+      "sendForgeNPWDMessage",
+      "sendUIMessage",
+      "setPhoneDisabled",
+      "setPhoneVisible",
+      "startPhoneCall",
+      "usePhoneItem"
+    ],
+    "server": [
+      "addForgeNPWDItem",
+      "blockDevice",
+      "cancelLostPhone",
+      "emitMessage",
+      "emitRconMessage",
+      "generatePhoneNumber",
+      "getActivePhoneContext",
+      "getDevice",
+      "getOwnedPhoneDevices",
+      "getPhoneNumber",
+      "getPlayerData",
+      "isPhoneNumberBusy",
+      "isPlayerBusy",
+      "issueNewPhone",
+      "issueReplacementPhone",
+      "newPlayer",
+      "onCall",
+      "onMessage",
+      "removeForgeNPWDItem",
+      "setForgeNPWDMetadata",
+      "unloadPlayer",
+      "usePhoneSlot"
+    ]
+  },
+  "forge-npwd-shop": {
+    "client": [
+      "compatGetNuiCallbacks",
+      "compatInvokeNui",
+      "openShop"
+    ],
+    "server": []
+  },
+  "forge-npwd-management": {
+    "client": [
+      "compatGetNuiCallbacks",
+      "compatInvokeNui",
+      "refreshManagement"
+    ],
+    "server": []
+  },
+  "forge-npwd-weather": {
+    "client": [
+      "GetPlayerRegion",
+      "compatGetNuiCallbacks",
+      "compatInvokeNui"
+    ],
+    "server": [
+      "GetForecast",
+      "GetWeatherList"
+    ]
+  },
+  "forge-npwd-banking": {
+    "client": [
+      "compatGetNuiCallbacks",
+      "compatInvokeNui",
+      "notifyBanking"
+    ],
+    "server": []
+  },
+  "forge-npwd-garage": {
+    "client": [
+      "compatGetNuiCallbacks",
+      "compatInvokeNui",
+      "sendGarageNotification"
+    ],
+    "server": [
+      "notifyPlayer"
+    ]
+  },
+  "forge-npwd-housing": {
+    "client": [
+      "compatGetNuiCallbacks",
+      "compatInvokeNui"
+    ],
+    "server": []
+  },
+  "forge-npwd-mail": {
+    "client": [
+      "compatGetNuiCallbacks",
+      "compatInvokeNui"
+    ],
+    "server": [
+      "SendMailToCitizen"
+    ]
+  }
+}
