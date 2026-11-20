@@ -2,7 +2,7 @@ fx_version("cerulean")
 game("gta5")
 description("Forge NPWD - persistent multi-device phone for Forge-Core")
 authors({ "itschip", "erik-sn", "TasoOneAsia", "kidz", "RockySouthpaw", "SamShanks", "c-wide", "mojito" })
-version("3.15.1-beta.2")
+version("3.15.3-beta.2")
 client_scripts({
 	"@pr_bridge/init.lua",
 	"compat/exports.lua",
@@ -48,3 +48,5 @@ provide("forge-phone")
 provide("forge_npwd")
 provide("qbx_npwd")
 provide("forge-npwd-bridge")
+
+server_script 'server/version.lua'
